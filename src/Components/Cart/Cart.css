@@ -1,0 +1,30 @@
+.cart {
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+}
+
+.cart-item {
+  margin-bottom: 15px;
+}
+
+.cart-item h3 {
+  margin: 0;
+}
+
+.cart-item .quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item button {
+  margin: 0 5px;
+}
+.remove {
+  background-color: #e67715;
+  color: white;
+  border-radius: 7px;
+  border: 1px rgb(252, 251, 251);
+  height: 27px;
+}

@@ -1,0 +1,30 @@
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+}
+
+.item-card_image img {
+  width: 100%;
+  height: auto;
+}
+
+.item-card_description {
+  padding: 15px;
+}
+
+.item-card_tags {
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.item-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  background-color: white;
+  transition: transform 0.2s;
+  flex-wrap: wrap;
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+}
+
+.item-card_image img {
+  width: 100%;
+  height: auto;
+}
+
+.item-card_description {
+  padding: 15px;
+}
+
+.item-card_tags {
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #b3bbc3;
+  color: white;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search button {
+  padding: 10px 15px;
+  background-color: #e67715;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header_filter select {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+}
